@@ -132,7 +132,7 @@ const Navbar = ({ theme, setTheme }) => {
                   </div>
                 ) : (
                   !loading && (
-                    <Link className="buttn" to="/login">
+                    <Link className="button" to="/login">
                       Sign In
                     </Link>
                   )
